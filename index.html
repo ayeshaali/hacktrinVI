@@ -24,7 +24,7 @@
 
 <body>
   <button type="button" id="sign-up" class="btn btn-light  btn-lg hide-on-firefox">
-    <a target="_blank" class="d" href="https://goo.gl/forms/fYMVqfNtakHKKeKB3">Sign Up!</a>
+    <a target="_blank" class="d" href="https://goo.gl/forms/BQjmWkCyWjAoz3Kb2">Sign Up!</a>
   </button>
 
   <!-- Navigation -->
@@ -47,9 +47,6 @@
       </li>
       <li>
         <a class="js-scroll-trigger" href="#faq">FAQ</a>
-      </li>
-      <li>
-        <a class="js-scroll-trigger" href="#map">Location</a>
       </li>
       <li>
         <a class="js-scroll-trigger" href="#schedule">Schedule</a>
@@ -82,7 +79,7 @@
         <h3>Trinity School's annual hackathon</h3>
         <h3>Come spend March 3rd coding with us!</h3>
 
-        <a target="_blank" href="https://goo.gl/forms/7QchuDTafqv7rwxI2" class="btn btn-dark btn-lg js-scroll-trigger">Sign Up!</a>
+        <a target="_blank" href="https://goo.gl/forms/BQjmWkCyWjAoz3Kb2" class="btn btn-dark btn-lg js-scroll-trigger">Sign Up!</a>
 
       </div>
 
@@ -132,23 +129,6 @@
                   </button>
                 </div>
               </div>
-
-              <div class="col-md-2 col-sm-6">
-                <div class="service-item">
-                  <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-map-marker fa-stack-1x text-primary"></i>
-                  </span>
-                  <h4>
-                    <strong>Location</strong>
-                  </h4>
-                  <p></p>
-                  <button type="button" class="btn btn-light">
-                    <a class="js-scroll-trigger" href="#map">Learn More</a>
-                  </button>
-                </div>
-              </div>
-
               <div class="col-md-2 col-sm-6">
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
@@ -240,44 +220,15 @@
           </aside>
         </section>
 
-        <!-- Map -->
-        <section id="contact" class="map">
-          <style>
-          #map {
-            height: 600px;
-            width: 100%;
-          }
-        </style>
-        <div id="map"></div>
-        <script>
-          function initMap() {
-            var uluru = {lat: 40.7905327, lng: -73.9712986};
-            var map = new google.maps.Map(document.getElementById('map'), {
-              zoom: 16,
-              center: uluru
-            });
-            var marker = new google.maps.Marker({
-              position: uluru,
-              map: map
-            });
-          }
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjK5IfGSE1NneCKPq1S5ay97uW9FnbbJ4&callback=initMap" async defer></script>
-    </section>
-    <br>
-    <br>
-    <br>
     <br>
 
 
-
-
-    <section id="schedule" class="schedule">
+    <!-- schedule -->
+    <!-- <section id="schedule" class="schedule">
       <aside class="call-to-action bg-primary text-white">
         <div class="container text-center">
           <h1>Schedule</h1>
-
-<center>
+          <center>
           <table align="center" class="centerTable">
             <tbody align="left">
               <tr><td><strong>Sunday, March 3</strong></td></tr>
@@ -294,7 +245,7 @@
           </center>
           </div>
         </aside>
-      </section>
+      </section> -->
 
       <section id="team" class="team">
         <div class="container">
@@ -326,7 +277,7 @@
               </h3>
             </div>
             <div class="col-lg-3 col-sm-6 text-center mb-4">
-              <img class="rounded-circle img-fluid d-block mx-auto" src="img/team/matteo.jpg" alt="">
+              <img class="rounded-circle img-fluid d-block mx-auto" src="img/team/lila.jpg" alt="">
               <h3>Lila Selin '19
                 <br>
                 <small>Head of Workshops</small>
@@ -342,7 +293,7 @@
             </div>
 
             <div class="col-lg-3 col-sm-6 text-center mb-4">
-              <img class="rounded-circle img-fluid d-block mx-auto" src="img/team/matteo.jpg" alt="">
+              <img class="rounded-circle img-fluid d-block mx-auto" src="img/team/alex.jpg" alt="">
               <h3>Alex Sheen '19
                 <br>
                 <small>Co-Head of Mentor Outreach</small>
@@ -358,7 +309,7 @@
             </div>
 
             <div class="col-lg-3 col-sm-6 text-center mb-4">
-              <img class="rounded-circle img-fluid d-block mx-auto" src="img/team/matteo.jpg" alt="">
+              <img class="rounded-circle img-fluid d-block mx-auto" src="img/team/mit.jpg" alt="">
               <h3>Mithun Ramesh '19
                 <br>
                 <small>Head of Sponsor Outreach</small>
@@ -435,6 +386,7 @@
                 <h3>Here are some other great events in the NYC area:<h3>
                   <h4><a href="http://hackmann.io"><img width = '70%' src = 'img/hackmann.png'></a></h4>
                   <h4><a href="http://stuyhacks.com"><img width = '70%' src = 'img/stuyhacks.png'></a></h4>
+                  <h4><a href="http://blogs.dalton.org/bitbybit/"><img width = '70%' src = 'img/bitbybit.jpg'></a></h4>
                 </div>
                 <!-- /.row -->
               </div>

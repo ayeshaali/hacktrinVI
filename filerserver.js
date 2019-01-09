@@ -8,6 +8,8 @@ app.listen(PORT, function(){
   console.log('Easy server listening for requests on port'+ PORT+'!');
 });
 
+//help
+
 app.get('/', function(request, response){
   response.writeHead(200, {'Content-Type': 'text/html'})
   var file = fs.readFileSync("index.html");

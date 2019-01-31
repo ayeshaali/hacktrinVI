@@ -1,5 +1,5 @@
 {
-  "name": "hacktrin",
+  "name": "prssadiayesha",
   "version": "1.0.0",
   "description": "",
   "main": "fileserver.js",
@@ -10,9 +10,9 @@
   },
   "devDependencies": {},
   "scripts": {
-  	"start": "node fileserver.js",
+  	"start": "node data_server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "ayesha-ali",
+  "author": "ayesha ali and sadi gulcelik",
   "license": "ISC"
 }
